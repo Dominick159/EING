@@ -627,3 +627,11 @@ footer p{
 .galeria .item:hover{
 	filter: brightness(70%);
 }
+
+/*---------------------------------------------------------------------------
+						PANEL ADMINISTRADORES
+---------------------------------------------------------------------------*/
+
+.login-admin{
+	background: var(--amarillo2);
+}
