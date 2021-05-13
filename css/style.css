@@ -635,3 +635,25 @@ footer p{
 .login-admin{
 	background: var(--amarillo2);
 }
+
+.login{
+	width: 25%;
+}
+
+@media screen and (max-width: 1200px){
+	.login{
+		width: 50%;
+	}
+	header h1{
+		font-size: 35px;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.login{
+		width: 90%;
+	}
+	header h1{
+		font-size: 25px;
+	}
+}

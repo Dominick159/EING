@@ -22,7 +22,7 @@
 		<h1 id="titulo">ESCUELA INTERNACIONAL DE NEGOCIOS GLOBALES</h1>
 	</header>
 
-	<div class="login w-25 m-auto mt-5 bg-light">
+	<div class="login m-auto mt-5 bg-light">
 		
 		<h2>Login</h2>
 
