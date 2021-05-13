@@ -22,11 +22,36 @@
 		<h1 id="titulo">ESCUELA INTERNACIONAL DE NEGOCIOS GLOBALES</h1>
 	</header>
 
-	<div class="login m-auto mt-5 bg-light">
+	
+<div class="login m-auto mt-5 bg-light ">
 		
-		<h2>Login</h2>
+     <h2><center>ACCESO AL EING</center></h2>
 
-	</div>
+
+	   <div class="brand_logo_container">
+         <img src="img/logo.png"class="brand_logo" alt="Logo">
+        </div>
+
+    <form action="/action_page.php">
+        <div class="form-group">
+         <label for="email">Correo Electronico:</label>
+            <input type="email" class="form-control" placeholder="Enter email" id="email">
+        </div>
+        <br>
+       <div class="form-group">
+          <label for="pwd">Contraseña:</label>
+             <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+      </div>
+       	<br>
+      <label class="form-check-label">
+            <input class="form-check-input" type="checkbox"> Recordar Contraseña </label>
+
+      <br>
+         <button type="submit" class="btn btn-secondary">ACCEDER</button>
+   </form>
+
+</div>
 
 </body>
 </html>
+
