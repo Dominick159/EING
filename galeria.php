@@ -14,12 +14,37 @@
 
             <?php 
                 $i = 1;
-                $cantFotos = 15;
+                $cantFotos = 9;
                 while ($i <= $cantFotos) {
             ?>  
                     <div class="item col-sm-6 col-md-4 mb-3">
                         <a href="<?php echo 'img/galeria/convenio'.$i.'.jpeg' ?>" class="fancybox" data-fancybox="gallery1">
                             <img src="<?php echo 'img/galeria/convenio'.$i.'.jpeg' ?>" width="100%" height="100%" alt="">
+                        </a>
+                    </div>
+            <?php
+                    $i++;
+                }
+             ?>
+           
+        </div>
+    </div>
+
+
+
+    <h3 class="text-center subtitle">Galería de Fotos Entrevista IESTPFFAA</h3><br>
+
+    <div class="container-fluid">
+        <div class="row mt-4">
+
+            <?php 
+                $i = 1;
+                $cantFotos = 6;
+                while ($i <= $cantFotos) {
+            ?>  
+                    <div class="item col-sm-6 col-md-4 mb-3">
+                        <a href="<?php echo 'img/entrevista/convenio'.$i.'.jpeg' ?>" class="fancybox" data-fancybox="gallery1">
+                            <img src="<?php echo 'img/entrevista/convenio'.$i.'.jpeg' ?>" width="100%" height="100%" alt="">
                         </a>
                     </div>
             <?php
