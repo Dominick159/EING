@@ -32,7 +32,7 @@
          <img src="img/logo.png"class="brand_logo" alt="Logo">
         </div>
 
-    <form action="/action_page.php">
+    <form action="/action_page.php" class="p-4">
         <div class="form-group">
          <label for="email">Correo Electronico:</label>
             <input type="email" class="form-control" placeholder="Enter email" id="email">

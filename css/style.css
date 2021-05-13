@@ -43,6 +43,7 @@ header{
 	justify-content: center;
 	align-items: center;
 	transition: all 0.5s ease;
+	line-height: 160px;
 }
 
 header.active-header{
@@ -67,6 +68,15 @@ header h1{
 
 .bg-verde{
 	background: var(--verde2);
+}
+
+#titulo{
+	line-height: 30px;
+	margin-top: 25px;
+}
+
+#titulo span{
+	font-size: 35px;
 }
 
 /*SECTION*/

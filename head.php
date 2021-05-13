@@ -43,7 +43,7 @@
 		
 		<header>
 			<a href="index.php"><img src="img/LOGO-EING.png" id="logo"></a>
-			<h1 id="titulo">ESCUELA INTERNACIONAL DE NEGOCIOS GLOBALES</h1>
+			<h1 id="titulo"><p>TALENTO</p><p><span>ESCUELA INTERNACIONAL DE NEGOCIOS GLOBALES</span></p></h1>
 		</header>
 		
 		<nav class="navbar navbar-expand-lg navbar-dark bg-verde">
@@ -79,6 +79,9 @@
 	        			</li>
 	        			<li class="nav-item">
 	          				<a class="nav-link" href="galeria.php"><i class="fas fa-image"></i> Convenios</a>
+	        			</li>
+	        			<li class="nav-item">
+	          				<a class="nav-link" href="galeria.php"><i class="fas fa-image"></i> Proyectos</a>
 	        			</li>
 	        			<li class="nav-item">
 	          				<a class="nav-link" href="contacto.php"><i class="fas fa-map-marker-alt"></i> Contacto</a>
