@@ -184,3 +184,8 @@ INSERT INTO tbpersonas (id, codigo, nombres, apellidos, dni, celular, correo, id
 (1161, 'EI125', 'YOSTIN OSCAR', 'SALAZAR TAQUIRI', '71740904', 929884481, 'TIWA_123456@HOTMAIL.COM', 1, 2, 8),
 (1162, 'AH116', 'YUDIT SANDY', 'ROJAS CAMIÑA', '70751780', 944251674, ' YUDITHRC96@GMAIL.COM', 2, 2, 9),
 (1163, 'MA119', 'YURI', 'OCHOA CONDE', '74662523', 918848133, 'OCHOACONDE12@GMAIL.COM', 1, 2, 4);
+
+
+
+INSERT INTO tbpersonas (codigo, nombres, apellidos, dni, celular, correo, idsexo, idbeca, idcarrera) VALUES 
+('CC112', 'Marduk Kevin', 'Valderrama Loroña', '77015052', 986656664, 'mardukvalderrama18@outlook.com', 1, 1, 6);
