@@ -81,7 +81,7 @@
 	          				<a class="nav-link" href="galeria.php"><i class="fas fa-image"></i> Convenios</a>
 	        			</li>
 	        			<li class="nav-item">
-	          				<a class="nav-link" href="galeria.php"><i class="fas fa-image"></i> Proyectos</a>
+	          				<a class="nav-link" href="proyectos.php"><i class="fas fa-image"></i> Proyectos</a>
 	        			</li>
 	        			<li class="nav-item">
 	          				<a class="nav-link" href="contacto.php"><i class="fas fa-map-marker-alt"></i> Contacto</a>
