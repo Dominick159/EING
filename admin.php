@@ -56,7 +56,7 @@
 	
 <div class="login m-auto mt-5 bg-light ">
 		
-     <h2><center>ACCESO AL EING</center></h2>
+     <h2><center>ACCESO A EING</center></h2>
 
 
 	   <div class="brand_logo_container">

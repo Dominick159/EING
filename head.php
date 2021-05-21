@@ -43,7 +43,7 @@
 		
 		<header>
 			<a href="index.php"><img src="img/LOGO-EING.png" id="logo"></a>
-			<h1 id="titulo"><p>TALENTO</p><p><span>ESCUELA INTERNACIONAL DE NEGOCIOS GLOBALES</span></p></h1>
+			<h1 id="titulo"><p>TALENTO EING</p><p><span>ESCUELA INTERNACIONAL DE NEGOCIOS GLOBALES</span></p></h1>
 		</header>
 		
 		<nav class="navbar navbar-expand-lg navbar-dark bg-verde">

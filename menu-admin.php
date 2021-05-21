@@ -51,7 +51,7 @@
 			</div>
 		</div>
 		
-		<div id="botones">
+		<!--div id="botones">
 			<a href="registrarCliente.php" id="btn-nuevo"><i class="fas fa-plus"></i> Nuevo</a>
 			<a href="menu-registros.php" id="btn-registros"><i class="fas fa-list-ul"></i> Pedidos</a>
 			<a href="historial-ventas.php" id="btn-ventas"><i class="fas fa-shopping-cart"></i> Ventas</a>
@@ -60,7 +60,7 @@
 			<a href="inventario.php" id="btn-inventario"><i class="fa fa-clipboard-list"></i> Inventario</a>
 			<a href="usuarios.php" id="btn-usuarios"><i class="fas fa-user"></i> Usuarios</a>
 			<a href="configuracion.php" id="btn-config"><i class="fas fa-user-cog"></i> Configuracion</a>
-		</div>
+		</div-->
 	</div>
 
 </body>
