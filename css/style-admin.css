@@ -1,0 +1,234 @@
+/*ESTILOS PARA PANEL ADMINISTRADOR*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap');
+
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	vertical-align: baseline;
+}
+
+:root{
+	--facebook: #3b5998;
+	--twitter: #55acee; 
+	--instagram: #e4405f;
+	--linkedin: #0077b5;
+	--whatsapp: #4ac959;
+
+	--verde1: #848445;
+	--verde2: #636637;
+	--naranja: #b37e11;
+	--amarillo1: #f8dd7b;
+	--amarillo2: #fff1a4;
+}
+
+body{
+	transition: all 0.5s ease;
+}
+
+header{
+	width: 100%;
+	height: 60px;
+	padding: 10px 30px;
+	overflow: hidden;
+	background: var(--amarillo2);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#logo{
+	width: 60px;
+	float: left;
+	display: block;
+}
+
+#title{
+	color: white;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	line-height: 50px;
+	display: inline-block;
+	width: 80%;
+}
+
+#title h1{
+	font-size: 25px;
+	line-height: 60px;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-weight: bold;
+	text-shadow: 3px 3px 3px var(--verde1);
+	margin-left: 20px;
+	color: var(--verde2);
+	margin-left: 80px;
+}
+
+#cerrar-sesion{
+	text-decoration: none;
+	color: var(--verde2);
+	transition: 0.3s ease-in-out;
+	line-height: 60px;
+}
+
+#cerrar-sesion:hover{
+	text-decoration: none;
+	color: var(--verde1);
+}
+
+#menu-botones h4{
+	font-family: roboto;
+	text-align: center;
+	color: #17a2b8;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-top: 50px;
+}
+
+#botones{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 30px;
+	width: 100%;
+}
+
+#botones a{
+	display: block;
+	width: 180px;
+	height: 120px;
+	text-decoration: none;
+	padding: 25px 0px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin: 20px 30px;
+	border-radius: 8px;
+	transition: 0.3s ease-in-out;
+	font-weight: 500;
+	border: 1px solid black;
+}
+
+/*FOTO DE ADMINISTRADOR*/
+
+.card-head{
+	width: 100%;
+	display: block;
+	margin-top: 40px;
+	border-radius: 30px;
+	background: white;
+	overflow: hidden;
+}
+
+.pic{
+	display: inline-block;
+	padding: 10px;
+	background: linear-gradient(50deg, #f8dd7b, #636637);
+	margin: auto;
+	border-radius: 50%;
+	background-size: 200% 200%;
+	animation: animated-gradient 2s linear infinite;
+	float: left;
+	margin-right: 25px;
+}
+
+
+.card-content{
+	padding: 20px;
+}
+
+@keyframes animated-gradient{
+	25%{
+		background-position: left bottom;
+	}
+	50%{
+		background-position: right bottom;
+	}
+	75%{
+		background-position: right top;
+	}
+	100%{
+		background-position: left top;
+	}
+}
+
+.pic img{
+	display: block;
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.pic img:hover{
+	transform: scale(1.05);
+	transition: 0.3s ease-in-out;
+}
+
+.name{
+	color: var(--verde1);
+	font-size: 25px;
+	font-weight: 600;
+	margin: 10px 0;
+}
+
+.desc{
+	font-size: 18px;
+	color: var(--verde2);
+	font-weight: 500;
+}
+
+.profesion{
+	font-size: 15px;
+	color: var(--verde2);
+}
+
+.sm{
+	display: flex;
+	justify-content: center;
+	margin: 20px 0;
+}
+
+.sm a{
+	color: var(--verde1);
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+	transition: 0.3s linear;
+	text-decoration: none;
+	background-color: #FFF;
+	border-radius: 50%;
+	margin: 0 5px;
+}
+
+.sm a.fa-facebook-f{
+	color: var(--facebook);
+}
+
+.sm a.fa-instagram{
+	color: var(--instagram);
+}
+
+.sm a.fa-linkedin-in{
+	color: var(--linkedin);
+}
+
+.sm a.fa-facebook-f:hover{
+	background: var(--facebook);
+	color: white;
+}
+
+.sm a.fa-instagram:hover{
+	background: var(--instagram);
+	color: white;
+}
+
+.sm a.fa-linkedin-in:hover{
+	background: var(--linkedin);
+	color: white;
+}

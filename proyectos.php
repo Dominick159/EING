@@ -1,20 +1,20 @@
-	<?php 
+<?php 
 
-		require_once 'head.php';
+	require_once 'head.php';
   
-	?>
-
-
-
-	
+?>
 
 
 
 
 
 
-	<?php 
 
-		require_once 'footer.php';
 
-	?>
+
+
+<?php 
+
+	require_once 'footer.php';
+
+?>
